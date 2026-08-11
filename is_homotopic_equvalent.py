@@ -1,4 +1,4 @@
-
+# core/infinity_groupoid.py
     def does_higher_path_exist(p: HigherPath[T], q: HigherPath[T]) -> HigherPath[T]:
         '''
         Placeholder for method to check if there exists hogher path between two paths
