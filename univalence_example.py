@@ -154,7 +154,7 @@ def dict_to_xml(d: PythonDict) -> XMLData:
 
     for key, value in d.data.items():
         child = ElemTree.SubElement(root, key)
-        child.text = str(value)  # Элемент XML принимает только строки
+        child.text = str(value)
 
     xml_bytes = ElemTree.tostring(root, encoding="utf-8")
 
